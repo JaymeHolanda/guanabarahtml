@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+<style>
+
+body {
+    color: blueviolet;
+    width: auto;
+}
+
+div {
+    background-color: blueviolet;
+    width: 300px;
+    color: white;
+}
+
+div:hover{
+    color: rgb(255, 255, 255);
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p, a {
+
+display: block;
+background-color: blueviolet;
+width: 300px;
+color: white;
+}
+
+a::after {
+            content: '  [Link]';
+            color: white;
+            font-weight: 200;
+            font-size: small;
+        }
+a:before{
+    content: '*';
+}
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+    <h1>Exemplo de Hover and Child</h1>
+    <p>Acesse o meu GitHub</p>
+    <div>Passe o mouse aqui
+
+<p><a target="_blank" rel="dofollow" href="https://github.com/JaymeHolanda">Clique aqui</a  ></p>
+
+
+    </div>
+<p>fim do exemplo</p>
+</body>
+</html>

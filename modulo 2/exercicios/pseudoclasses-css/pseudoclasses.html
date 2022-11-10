@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    
+    <!--ESTAMOS USANDO O INLINE BLOCK-->
+    
+    <style>
+        
+        body {
+            background-image: linear-gradient(to bottom, rgb(68, 66, 66) , rgb(255, 255, 255));
+            background-repeat: no-repeat;
+            min-height: 500px;
+        }
+        
+        div{
+            background-color: rgb(236, 48, 253);
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px  solid black;
+            display: inline-block;  /* Tudo na mesma linha */
+            margin-top: 40px 
+        }
+
+        #div2 {
+            background-color: black;
+            color: white;
+        }
+
+        #div3 {
+            background-color: rgb(226, 83, 47);
+        }
+        
+        #div1:hover {
+            background-color: rgb(7, 252, 199);
+        }
+
+        #div2:hover {
+            background-color: blue;
+            color: black;
+        }
+        #div3:hover {
+            background-color: rgb(209, 6, 6);
+        }
+
+       
+
+
+    </style>
+</head>
+
+
+
+<body>
+    <strong>
+        <div id="div1">DIV 1</div>
+        <div id="div2">DIV 2</div>
+        <div id="div3">DIV 3</div>
+    </strong>  
+</body>
+</html>
